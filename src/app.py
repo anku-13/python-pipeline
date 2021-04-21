@@ -4,9 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    x=input()
-    y=input()
-    print(x+y)
+    print("Fdfs")
     return "Hello World"
 
 
