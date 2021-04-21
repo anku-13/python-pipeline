@@ -1,5 +1,5 @@
-from app import add
+from app import index
 
 def test_index():
-    assert 4 == add(2, 2)
+    assert index() = "Hello WOrld"
 
