@@ -4,6 +4,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
+    x=input()
+    y=input()
+    print(x+y)
     return "Hello World"
 
 
